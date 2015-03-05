@@ -1,6 +1,7 @@
 package com.wakaleo.gameoflife.domain;
 //test efdsdf
 //dfgsdfg
+//how
 public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
