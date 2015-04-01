@@ -8,6 +8,7 @@ import static org.hamcrest.Matchers.nullValue;
 import static org.mockito.Mockito.mock;
 
 import javax.servlet.http.HttpServletRequest;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -20,6 +21,11 @@ public class WhenCreatingANewGame {
     @Before
     public void initializeController() {
         bean = new GameBean();
+    }
+    
+    @Test
+    public void TestRandom() {
+        assertTrue(false);
     }
 
     @Test
